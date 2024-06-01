@@ -1,3 +1,3 @@
-def build_maven(){
+def call(){
   sh 'mvn clean install'
 }
